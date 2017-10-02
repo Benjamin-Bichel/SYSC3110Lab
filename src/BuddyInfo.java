@@ -16,6 +16,12 @@ public class BuddyInfo {
 		this.number = number;
 	}
 
+	public String toString() {
+		String all;
+		all = name +" "+adress+" "+number;
+		return all;
+		
+	}
 	public String getName() {
 		return name;
 	}
